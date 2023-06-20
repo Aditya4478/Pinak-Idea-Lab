@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .first-div{
+            background-color: rgb(253, 209, 30);
+            height: 70vh;
+        }
+        .heading{
+            padding-top: 5%;
+            margin-bottom: 2%;
+            text-align: center;
+            color: rgb(255, 252, 244);
+            font-size: x-large;
+        }
+        .description,.second-div{
+            display: flex;
+            justify-content: center;
+        }
+        .circle{
+            background-color: rgb(174, 143, 21);
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+        }
+        .smile{
+            text-align: center;
+            font-size: x-large;
+            font-weight: 900;
+            line-height: 80px;
+            transform: scale(1.5);
+        }
+        .second-div{
+            background-color: rgb(255, 85, 90);
+            height: 30vh;
+        }
+        .arrow-down {
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 50px solid rgb(253, 209, 30);
+            margin-top: -2px;
+        }
+        @media (max-width: 400px) {
+            .heading{
+                padding-top: 15%;
+                margin-bottom: 10%;
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="first-div">
+            <div class="heading">
+                <h2>Pinak Idea Lab</h2>
+            </div>
+            <div class="description">
+                <div class="circle">
+                    <p class="smile">:  &rpar;</p>
+                </div>
+            </div>
+        </div>
+        <div class="second-div">
+            <div class="arrow-down"></div>
+        </div>
+</body>
+</html>
